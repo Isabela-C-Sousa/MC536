@@ -4,15 +4,15 @@
 
 ## Questão 1
 Construa uma comando SELECT que retorne dados equivalentes a este XPath
+~~~xquery
+//individuo[idade>20]/@nome
+~~~
+
+### Resolução
 ~~~sql
 SELECT nome
 FROM individuo
 WHERE idade>20
-~~~
-
-### Resolução
-~~~xquery
-(escreva aqui a resolução em XPath)
 ~~~
 
 ## Questão 2
